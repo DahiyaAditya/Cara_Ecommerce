@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara</title>
+     <!-- Import local css file -->
+     <link rel="Stylesheet" href="./script.css">
+     <!-- remix icon import for favicons -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <!-- header started here -->
+        <header id="header">
+            <a href="#"><img src="./img/logo.png" class="logo"></a>
+           <div>
+             <ul id="navbar">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="shop.html">Shop</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li id="lg-bag"><a class="active" href="cart.html"><span><i class="ri-shopping-bag-2-line"></i></span></a></li>
+             <a id="close" href="#"><span><i class="ri-close-fill"></i></span></a>
+             </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><span><i class="ri-shopping-bag-2-line"></i></span></a>
+                <i id="bar" class="ri-menu-fold-line"></i>
+             </div>
+           </header>
+           <!-- header ends here..... -->
+           
+           <!-- Main started here.......... -->
+        <main>
+            <!-- hero section is here -->
+            <div id="About-hero">
+                <h2>Your Cart</h2>
+                <p>Add your coupon & SAVE upto 70%</p>
+            </div>
+            <!-- hero section ends here -->
+
+            <!-- cart section started here -->
+            <div id="cart" class="section-p1">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <td>Remove</td>
+                            <td>Image</td>
+                            <td>Product</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                            <td>subtotal</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#"><i class="ri-delete-bin-7-fill"></i></a></i></td>
+                            <td><img src="./img/Products/f1.jpg" alt="" srcset=""></td>
+                            <td>Cartoon Astronaut T-shirt</td>
+                            <td><span>₹</span>2999</td>
+                            <td><input type="number"  min="0" max="5" type="submit" value="1"></td>
+                            <td><span>₹</span>2999</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><i class="ri-delete-bin-7-fill"></i></a></i></td>
+                            <td><img src="./img/Products/f2.jpg" alt="" srcset=""></td>
+                            <td>Cartoon Astronaut T-shirt</td>
+                            <td><span>₹</span>2999</td>
+                            <td><input type="number"  min="0" max="5" type="submit" value="1"></td>
+                            <td><span>₹</span>2999</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><i class="ri-delete-bin-7-fill"></i></a></i></td>
+                            <td><img src="./img/Products/f3.jpg" alt="" srcset=""></td>
+                            <td>Cartoon Astronaut T-shirt</td>
+                            <td><span>₹</span>2999</td>
+                            <td><input type="number"  min="0" max="5" type="submit" value="1"></td>
+                            <td><span>₹</span>2999</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- cart ends here -->
+            <!-- coupon section start here -->
+            <div id="cart-add" class="section-p1">
+                <div id="coupon">
+                    <h3>Apply Coupon</h3>
+                    <div>
+                        <input type="text" placeholder="Enter Your Coupon" >
+                        <button type="submit">Apply</button>
+                    </div>
+                </div>
+                <div id="subtotal">
+                    <h3>Cart Total</h3>
+                    <table>
+                        <tr>
+                            <td>Cart SubTotal</td>
+                            <td><span>₹</span>2999</td>
+                        </tr>
+                        <tr>
+                            <td>shipping</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <Td><span>₹</span>2999</Td>
+                        </tr>
+                    </table>    
+                    <button type="submit">Proceed to checkout</button>
+                </div>
+            </div>
+        </main>
+         <!-- footer stareted here -->
+         <footer >
+            <div id="footer" class="section-p1">
+            <div class="col-1">
+                <img src="./img/logo.png" alt="logo">
+                <p>Contact</p>
+                <ul>
+                    <li><strong>Address:</strong> <span>HSR-Layout Bangalore,Karnataka</span></li>
+                    <li><strong>Phone:</strong><span>(+91)9315 2023 52</span></li>
+                    <li><strong>Hours:</strong><span>10:00-18:00 Mon-Fri</span></li>
+                </ul>
+                <p>Follow us</p>
+                <div class="icon">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                </div>
+            </div>
+            <div class="col-2">
+                <p><strong>About</strong></p>
+                <ul>
+                    <li>About Us</li>
+                    <li>Delivery Information</li>
+                    <li>Privacy Policy</li>
+                    <li>Term & Condition</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <p>My Account</p>
+                <ul>
+                    <li>Sign In</li>
+                    <li>View Cart</li>
+                    <li>My Wishlist</li>
+                    <li>Track My Order</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <p><strong> Install App</strong></p>
+                <div class="App-Store">
+                    <p>From App Store or google play</p>
+                    <img src="./img/Pay/app.jpg" alt="" srcset="">
+                    <img src="./img/Pay/play.jpg" alt="" srcset="">
+                    <p>Secured payment gateways</p>
+                    <img src="./img/Pay/pay.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>  
+        <div class="copyright">
+            <p><i class="ri-copyright-line"></i>2023, Aditya Singh, HTML CSS JS Ecommerce Website</p>
+        </div>
+        </footer>   
+        <script src="./cart.js"></script>
+    </section>
+</body>
+</html>
